@@ -28,6 +28,32 @@ La sécurité est un aspect essentiel, surtout lorsqu'il s'agit de gérer un tab
 Découvrez plus sur les méthodes d'authentification dans la [documentation sur l'authentification]([https://dashy.to/docs/auth](https://dashy.to/docs/authentication/)).
 
 ---
+# Démonstration 📸
 
-Ce projet est open source, et toute contribution est la bienvenue ! Si vous avez des idées, suggestions ou simplement envie d'aider, n'hésitez pas à me contacter. Ensemble, nous pouvons rendre ce tableau de bord encore plus complet et utile à la communauté !🥳
+---
+
+## Accueil 🏠
+Voici à quoi ressemble la page d'accueil de Dashy :
+
+![Accueil](images/home.png)
+
+---
+
+## Page OSINT 🔍
+Découvrez l'interface de la page OSINT, conçue pour regrouper des outils d'analyse et de recherche d'information :
+
+![OSINT](images/OSINT.png)
+
+---
+
+## Page Veille 🌐
+Explorez la page Veille, dédiée à la surveillance technologique et géopolitique :
+
+![Veille](images/veille.png)
+
+---
+
+> Ce projet est open source et je continue à ajouter des outils régulièrement, toute contribution est la bienvenue ! Si vous avez des idées, suggestions ou simplement envie d'aider n'hésitez pas à me contacter. Ensemble, nous pouvons rendre ce tableau de bord encore plus complet et utile à la communauté !🥳
+
+
 
