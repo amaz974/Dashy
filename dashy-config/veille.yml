@@ -1,0 +1,298 @@
+---
+pages:
+  - name: home
+    path: 'conf.yml'
+
+pageInfo:
+  title: Bienvenue sur la page de veille 🧐
+  logo: 'https://i.ibb.co/LPGGn5Q/image.png'
+  navLinks:
+    - title: Home
+      path: /
+sections:
+  ############################################################################################-IT - CYBER  -#######################################################
+  - name: IT / Cyber
+    icon: fas fa-lock
+    displayData:
+      cols: 1
+      collapsed: True
+      itemSize: medium
+    items:
+      - title: Developpez
+        icon: favicon
+        url: https://securite.developpez.com/
+        tags: [sécurité, développement, actualités, flux rss, analyse]
+        description: "Plateforme dédiée aux développeurs avec des sections sécurité et flux d'actualités technologiques."
+
+      - title: Numérama - Cyberguerre
+        icon: favicon
+        url: https://www.numerama.com/cyberguerre/
+        tags: [cyberattaque, cybersécurité, cyberguerre, technologies, actualités]
+        description: "Actualités sur les conflits numériques, cyberattaques et menaces dans le monde du cyber."
+
+      - title: Le journal du hack
+        icon: favicon
+        url: https://lejournalduhack.com/
+        tags: [hacking, actualités, sécurité, technologie, informations]
+        description: "Un journal couvrant les actualités générales du hacking et de la cybersécurité."
+
+      - title: Zataz
+        icon: favicon
+        url: https://www.zataz.com/
+        tags: [enquête, hacking, cybersécurité, veille, actualités]
+        description: "Actualités et enquêtes sur la sécurité informatique et le hacking."
+
+      - title: Clubic - Sécurité
+        icon: favicon
+        url: https://www.clubic.com/antivirus-securite-informatique/
+        tags: [cybersécurité, antivirus, informatique, actualités, technologies]
+        description: "Couverture des sujets liés à la sécurité informatique, antivirus et actualités technologiques."
+
+      - title: Bleeping Computer
+        icon: favicon
+        url: https://www.bleepingcomputer.com/
+        tags: [cybersécurité, informatique, actualités, malware, vulnérabilités]
+        description: "Actualités sur les menaces informatiques, les malwares, et les conseils en sécurité."
+
+      - title: Incyber
+        icon: favicon
+        url: https://incyber.org/
+        tags: [cybersécurité, enquêtes, cybermenaces, analyse, tendances]
+        description: "Enquêtes et tendances dans le domaine de la cybersécurité à travers le monde."
+
+      - title: RiskInsight
+        icon: favicon
+        url: https://www.riskinsight-wavestone.com/
+        tags: [cybersécurité, risques, enquêtes, analyse, technologies]
+        description: "Blog spécialisé dans l'analyse des risques et enquêtes en cybersécurité."
+
+      - title: The Hacker News
+        icon: favicon
+        url: https://thehackernews.com/
+        tags: [cybermenaces, hacking, actualités, cybersécurité, vulnérabilités]
+        description: "Actualités sur les cybermenaces, les vulnérabilités et le monde du hacking."
+
+      - title: Falcon Feeds
+        icon: favicon
+        url: https://falconfeeds.io/blog
+        tags: [cybersécurité, veille, actualités, analyse, menaces]
+        description: "Blog fournissant une veille continue sur les menaces et actualités en cybersécurité."
+
+      - title: Hacker Arise
+        icon: favicon
+        url: https://hackers-arise.net/blog/
+        tags: [technique, cyberattaque, hacking, formation, analyse]
+        description: "Techniques d'attaque en cybersécurité et formation sur les outils et méthodes de hacking."
+
+      - title: IT-connect
+        icon: favicon
+        url: https://www.it-connect.fr/
+        tags: [actualités, tutoriels, techniques, cybersécurité, informatique]
+        description: "Actualités et tutoriels sur les technologies, la sécurité et les techniques d'attaque."
+
+      - title: LeMagIT
+        icon: favicon
+        url: https://www.lemagit.fr/
+        tags: [général, technologies, informatique, sécurité, actualités]
+        description: "Plateforme d'information couvrant tous les aspects de l'informatique et des nouvelles technologies."
+
+      - title: 404 Media
+        icon: favicon
+        url: https://www.404media.co/
+        tags: [général, technologie, cyber, médias, actualités]
+        description: "Actualités générales sur les nouvelles technologies, la sécurité et la société numérique."
+
+      - title: LeBigData
+        icon: favicon
+        url: https://www.lebigdata.fr/author/bastienl
+        tags: [intelligence artificielle, big data, technologies, analyse, tendances]
+        description: "Actualités et articles spécialisés dans l'intelligence artificielle et le Big Data."
+
+  ############################################################################################-Forum / TEAMS  -#######################################################
+  - name: Forum / TEAMS
+    icon: fas fa-users
+    displayData:
+      cols: 1
+      collapsed: false
+      itemSize: medium
+    items:
+      - title: Hack Forum
+        icon: fas fa-comments
+        url: https://hackforums.net/
+        tags: [forum, hacking, discussion, sécurité, cyber]
+        description: "Communauté en ligne discutant de hacking, sécurité et cybersécurité."
+
+      - title: Turk Hack Team
+        icon: 'https://i.ibb.co/MZJq67c/image.png'
+        url: https://www.turkhackteam.org/guncel/
+        tags: [forum, hacking, turc, sécurité, cyber]
+        description: "Forum turc actif sur le hacking, les cybermenaces et la sécurité informatique."
+
+      - title: Ransmoware live
+        icon: favicon
+        url: https://www.ransomware.live/
+        tags: [Teams, Ransmoware, hacking, discussion, sécurité, cyber]
+        description: "Fournit des informations et des mises à jour en temps réel sur les attaques de ransomware et les cybermenaces."
+
+      - title: Lockbit 3.0
+        icon: '🧅'
+        url: http://lockbit3g3ohd3katajf6zaehxz4h4cnhmz5t735zpltywhwpc6oy3id.onion/
+        tags: [Teams, Ransmoware, hacking, sécurité, cyber]
+        description: "LockBit 3.0 est un groupe de cybercriminalité connu pour ses attaques par ransomware, souvent en utilisant le modèle Ransomware-as-a-Service (RaaS)."
+
+  ############################################################################################-Podcasts / réseaux  -#######################################################
+  - name: Podcasts/ Réseaux
+    icon: fas fa-podcast
+    displayData:
+      cols: 1
+      collapsed: false
+      itemSize: medium
+    items:
+      - title: NoLimitSecu
+        icon: favicon
+        url: https://www.nolimitsecu.fr/
+        tags: [podcast, cybersécurité, technique, expert, discussions]
+        description: "Podcast français dédié à la cybersécurité avec des invités experts du domaine."
+
+      - title: Le Super Daily
+        icon: favicon
+        url: https://lesuperdaily.com/
+        tags: [podcast, marketing, technologie, tendances, réseaux sociaux]
+        description: "Podcast quotidien traitant des tendances et technologies dans le marketing et les réseaux sociaux."
+
+      - title: Twitter
+        icon: favicon
+        url: https://twitter.com/
+        tags: [réseaux sociaux, actualités, technologie, communication, médias]
+        description: "Réseau social pour suivre les actualités technologiques et cyber."
+
+      - title: Feedly
+        icon: favicon
+        url: https://feedly.com/
+        tags: [flux RSS, veille, actualités, technologies, cybersécurité]
+        description: "Plateforme de lecture de flux RSS pour suivre les actualités et la cybersécurité."
+
+      - title: Quora
+        icon: favicon
+        url: https://www.quora.com/
+        tags: [forum, discussions, questions, communauté, technologie]
+        description: "Plateforme de questions-réponses où des experts et amateurs échangent sur divers sujets technologiques."
+
+  ############################################################################################-Vulnérabilités  -#######################################################
+  - name: Vulnérabilités
+    icon: fas fa-exclamation-triangle
+    displayData:
+      cols: 1
+      collapsed: false
+      itemSize: medium
+    items:
+      - title: CVE Details
+        icon: favicon
+        url: https://www.cvedetails.com/
+        tags: [vulnérabilités, CVE, sécurité, analyse, cyber]
+        description: "Base de données recensant les vulnérabilités (CVE) et failles de sécurité des systèmes."
+
+      - title: CERT-FR
+        icon: favicon
+        url: https://www.cert.ssi.gouv.fr/
+        tags: [cybermenaces, vulnérabilités, alerte, sécurité, gouvernement]
+        description: "Centre d'expertise en cybersécurité français, diffusant des alertes et rapports sur les menaces."
+
+      - title: CERT-UA
+        icon: favicon
+        url: https://cert.gov.ua/
+        tags: [cybermenaces, vulnérabilités, sécurité, gouvernement, alerte]
+        description: "Centre d'expertise en cybersécurité Ukrainien, publiant des alertes de sécurité."
+
+  ############################################################################################-Acteurs-#######################################################
+  - name: Acteurs majeurs
+    icon: fas fa-shield-alt
+    displayData:
+      cols: 1
+      collapsed: false
+      itemSize: medium
+    items:
+      - title: Ansi
+        icon: fas fa-shield-alt
+        url: https://www.ssi.gouv.fr/  # URL de l'ANSI
+        tags: [gouvernement, sécurité, cybersécurité]
+        description: "L'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) protège les systèmes d'information."
+
+      - title: CNIL
+        icon: favicon
+        url: https://www.cnil.fr/  # URL de la CNIL
+        tags: [gouvernement, données, protection]
+        description: "La Commission Nationale de l'Informatique et des Libertés (CNIL) régule la protection des données."
+
+      - title: Cybermalveillance
+        icon: favicon
+        url: https://www.cybermalveillance.gouv.fr/blog  # URL du blog Cybermalveillance
+        tags: [cybersécurité, prévention, alerte]
+
+      - title: Bruce Schneier Blog
+        icon: favicon
+        url: https://www.schneier.com/
+        tags: [sécurité, cybersécurité, technologie, blog, analyse]
+        description: "Blog de Bruce Schneier, expert en sécurité informatique, offrant des réflexions et des analyses sur la cybersécurité."
+
+      - title: National Cyber Security Centre
+        icon: favicon
+        url: https://www.ncsc.gov.uk/
+        tags: [gouvernement, cybersécurité, stratégie, sécurité, cybermenaces]
+        description: "Centre national britannique dédié à la stratégie et la protection en cybersécurité."
+
+      - title: SentinelOne
+        icon: favicon
+        url: https://fr.sentinelone.com/blog/
+        tags: [cybersécurité, blog, analyse, menace, sécurité]
+        description: "Blog spécialisé en cybersécurité, offrant des analyses et des conseils de protection."
+
+      - title: Cybermalveillance
+        icon: favicon
+        url: https://www.cybermalveillance.gouv.fr/
+        tags: [cybersécurité, alerte, aide, prévention, sécurité]
+        description: "Plateforme française de prévention et d'alerte contre les menaces numériques."
+
+      - title: Bitdefender
+        icon: favicon
+        url: https://www.bitdefender.com/fr-fr/blog/
+        tags: [antivirus, cybersécurité, blog, menace, analyse]
+        description: "Blog de l'éditeur antivirus Bitdefender, avec des analyses et conseils en cybersécurité."
+
+  ############################################################################################-Géopolitique  -#######################################################
+  - name: Géopolitique et cybersécurité
+    icon: fas fa-globe
+    displayData:
+      cols: 1
+      collapsed: false
+      itemSize: medium
+    items:
+      - title: Institut Montaigne
+        icon: favicon
+        url: https://www.institutmontaigne.org/
+        tags: [géopolitique, stratégie, cybersécurité, société, analyses]
+        description: "Think tank français offrant des analyses sur les questions de stratégie, de cybersécurité et de société."
+
+      - title: Le Monde Diplomatique
+        icon: favicon
+        url: https://www.monde-diplomatique.fr/
+        tags: [géopolitique, presse, analyse, monde, société]
+        description: "Magazine français proposant des analyses géopolitiques et des réflexions sur les événements mondiaux."
+
+      - title: Courrier International
+        icon: favicon
+        url: https://www.courrierinternational.com/
+        tags: [presse, international, géopolitique, société, monde]
+        description: "Presse internationale rassemblant des articles du monde entier sur des sujets variés."
+
+      - title: Echo Medias
+        icon: favicon
+        url: https://www.echosmedias.org/category/monde/
+        tags: [presse, géopolitique, médias, international, actualités]
+        description: "Actualités et analyses des événements géopolitiques dans le monde entier."
+
+      - title: Intelligence Online
+        icon: fas fa-globe
+        url: https://www.intelligenceonline.fr/
+        tags: [renseignement, analyse, sécurité, géopolitique, stratégie]
+        description: "Site spécialisé dans le renseignement et les questions de stratégie à l'échelle internationale."
