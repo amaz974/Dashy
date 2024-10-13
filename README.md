@@ -27,6 +27,66 @@ Vous pouvez consulter la liste complète des widgets dans la [documentation des 
 La sécurité est un aspect essentiel, surtout lorsqu'il s'agit de gérer un tableau de bord avec des informations sensibles. Dans ce projet, j'ai utilisé une configuration basique de mot de passe car le projet est en localhost (je vous rassure les ID Admin ne sont pas Admin - Admin 🤣). Vous pouvez sécuriser Dashy en utilisant des solutions comme **Keycloak** pour la gestion des identités et des droits d'accès. Dashy prend en charge plusieurs méthodes d'authentification pour sécuriser vos utilisateurs et vos données.  
 Découvrez plus sur les méthodes d'authentification dans la [documentation sur l'authentification]([https://dashy.to/docs/auth](https://dashy.to/docs/authentication/)).
 
+## INFO - Docker 🍿
+
+### Linux 🐧
+
+1. **Vérifier** si Docker fonctionne :
+    
+    ```bash
+    sudo systemctl status docker
+    ```
+    
+2. **Démarrer Docker** :
+    
+    ```bash
+    sudo systemctl start docker
+  
+    ```
+    
+
+### Windows 🖥️
+
+1. **Ouvrir Docker Desktop**.
+2. Attendre l'icône 🐳 stable.
+3. Si problème : clic droit → **Quitter** puis redémarrer.
+
+### Commandes 🍗
+
+- Pour voir **les conteneurs en cours d'exécution** :
+    
+    ```bash
+    docker ps
+    ```
+    
+- Pour voir **tous les conteneurs**, y compris ceux qui sont arrêtés :
+    
+    ```bash
+    docker ps -a
+    ```
+
+- Si le conteneur est déjà créé mais arrêté, vous pouvez le démarrer avec :
+    
+    ```bash
+    docker start <nom_du_conteneur> ou <ID_du_conteneur>
+    ```
+
+- Pour arrêter un conteneur en cours d'exécution :
+    
+    ```bash
+    docker stop <nom_du_conteneur> ou <ID_du_conteneur>
+    ```
+- Pour supprimer un conteneur arrêté :
+    
+    ```bash
+    docker rm <nom_du_conteneur> ou <ID_du_conteneur>
+    ```
+    
+- Pour **forcer la suppression** d'un conteneur (s'il est encore en cours d'exécution par exemple), vous pouvez utiliser l'option `f` :
+    
+    ```bash
+    docker rm -f <nom_du_conteneur> ou <ID_du_conteneur>
+    ```
 ---
 # Démonstration 📸
 
